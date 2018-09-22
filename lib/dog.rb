@@ -1,3 +1,10 @@
 class Dog
-  # code goes here
+
+def initialize(name)
+  
+end
+
+
+
+
 end
