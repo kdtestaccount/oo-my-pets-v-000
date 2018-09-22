@@ -10,7 +10,7 @@ def self.new(species)
   @@all << self
 end
 
-def self.all
+def all
   @@all
 end
 
