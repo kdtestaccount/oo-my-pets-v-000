@@ -5,4 +5,5 @@ class Owner
 def all
   @@all.count
 end
+
 end
