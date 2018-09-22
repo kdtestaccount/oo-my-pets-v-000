@@ -3,7 +3,9 @@ class Owner
 attr_reader :species
 attr_accessor :name
 
-@@all = []
+def initialize
+  @@all = []
+end
 
 def self.new(species)
   @species = species
