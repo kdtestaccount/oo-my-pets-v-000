@@ -2,7 +2,7 @@ class Owner
 
 @@all = []
 
-def all
+def count
   @@all.count
 end
 
