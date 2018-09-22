@@ -12,7 +12,7 @@ def self.new(species)
 end
 
 def self.all
-  puts @@all
+  @@all
 end
 
 def self.count
