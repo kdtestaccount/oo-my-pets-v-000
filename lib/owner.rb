@@ -17,7 +17,7 @@ def reset_all
 end
 
 def say_species
-  self.species
+  puts self.species
 end
 
 end
