@@ -2,7 +2,8 @@ class Owner
 
 @@all = []
 
-def new(name)
+def new(species)
+  
 end
 
 def count
