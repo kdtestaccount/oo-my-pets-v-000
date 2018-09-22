@@ -6,7 +6,7 @@ attr_writer :species
 attr_reader 
 attr_accessor :name
 
-def self.new(species)
+def new(species)
   @species = species
   @@all << species
 end
