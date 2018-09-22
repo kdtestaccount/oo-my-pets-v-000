@@ -2,6 +2,8 @@ class Owner
 
 @@all = []
 
+def new(name)
+
 def count
   @@all.count
 end
