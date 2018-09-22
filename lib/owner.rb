@@ -5,7 +5,7 @@ attr_accessor :name
 
 @@all = []
 
-def new(species)
+def self.new(species)
   @species = species
   @@all << self
 end
