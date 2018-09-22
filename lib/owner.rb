@@ -2,8 +2,9 @@ class Owner
 
 @@all = []
 
+attr_writer :species
 attr_reader 
-attr_accessor :name, :species
+attr_accessor :name
 
 def self.new(species)
   @species = species
