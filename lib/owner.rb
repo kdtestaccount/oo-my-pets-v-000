@@ -13,6 +13,7 @@ end
 def self.all
   @@all << self
 end
+
 def count
   @@all.count
 end
