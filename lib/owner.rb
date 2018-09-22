@@ -16,4 +16,7 @@ def reset_all
   @@all.clear
 end
 
+def say_species
+  self.species
+
 end
