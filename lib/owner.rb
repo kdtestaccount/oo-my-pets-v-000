@@ -22,6 +22,7 @@ def say_species
 end
 
 def name
-  self.name = 
+  self.name
 end
+
 end
