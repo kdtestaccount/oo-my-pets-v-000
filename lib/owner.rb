@@ -5,7 +5,7 @@ attr_reader :species
 @@all = []
 
 def new(species)
-  
+  @species = species
 end
 
 def count
