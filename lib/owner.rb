@@ -7,9 +7,12 @@ attr_accessor :name
 
 def new(species)
   @species = species
-  @@all << self
+  
 end
 
+def all
+  @@all << self
+end
 def count
   @@all.count
 end
